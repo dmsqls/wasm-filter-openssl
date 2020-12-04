@@ -1,0 +1,6 @@
+#./config -no-threads -no-asm -no-pic -no-egd -no-zlib -no-idea -no-dh -no-dso -DDEBUG_UNUSED -no-ssl -no-rdrand -no-stdio -no-sock -no-afalgeng -DOPENSSL_SYS_NETWARE -DSIG_DFL=0 -DSIG_IGN=0 -DHAVE_FORK=0 -DOPENSSL_NO_AFALGENG=1 -DOPENSSL_NO_SPEED=1
+
+./config -no-threads -no-asm -DDEBUG_UNUSED -no-sock -no-afalgeng -no-ui -DOPENSSL_SYS_NETWARE -DSIG_DFL=0 -DSIG_IGN=0 -DHAVE_FORK=0 -DOPENSSL_NO_AFALGENG=1 -DOPENSSL_NO_SPEED=1
+
+make
+make install
